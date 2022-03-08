@@ -1,6 +1,6 @@
 # Learn more about this file at https://www.gitpod.io/docs/references/gitpod-yml
 tasks:
-  - init: yarn && yarn build && sleep 5
+  - init: yarn && yarn build && sleep 6
     command: yarn start
 ports:
   - port: 3000
